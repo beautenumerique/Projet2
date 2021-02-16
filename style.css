@@ -1,0 +1,168 @@
+html {
+    font-family: Raleway;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+img {
+    max-width: 150px;
+    min-height: auto;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li:hover {
+    border-top: solid 1px #0065fc;
+    color: #0065fc;
+}
+
+li a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img {
+    width: 90px;
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    font-size: 1.3em;
+    color:black;
+}
+
+nav a  hover {
+    color: #0065fc;
+}
+
+:root {
+    --blue:#0065fc;
+    --light-blue:#DEEBFF;
+    --grey: #f2f2f2;
+    --icon-size: 40px;
+}
+
+#search {
+    display: flex;
+}
+
+#iconInput {
+    display: flex;
+    background-color: var(--grey);
+    border: 2px solid var(--grey);
+    border-right: none;
+    border-radius: 10px 0 0 10px;
+}
+
+input {
+    margin: 0;
+    border: none;
+    text-indent: 5px;
+}
+
+button {
+    margin: 0;
+    color: white;
+    background-color: var(--blue);
+    border: solid;
+    border-radius: 0 10px 10px 0;
+}
+
+.searchFilters {
+    align-items: center;
+    display: flex;
+}
+
+#paragraphe {
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.searchFiltersFilterTitle {
+    display: flex;
+    border: solid 2.5px #f2f2f2;
+    border-radius: 20px;
+    max-width: 300px;
+    margin:10px;
+    align-items: baseline;
+    text-decoration: none;
+}
+
+.searchFiltersFilterWrapiconIcon {
+    background-color: #DEEBFF;
+    color: #0065fc;
+    border-radius: 100%;
+    padding: 5px;
+    max-height: 100px;
+    max-width: 100px;
+    min-height: 25px;
+    min-width: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.searchFiltersFilter {
+    padding: 5px;
+    font-family: Raleway;
+}
+
+.searchFiltersFilterTitle hover {
+    color:#0065fc;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.searchResult {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.searchResultText {
+    padding: 10px;
+}
+
+.fa-info searchResultWrapiconIcon {
+    text-align: center;
+    color:#0065fc;
+    border-radius: 100%;
+    height: 33px;
+    width: 33px;
+    border: solid 1px #d9d9d9;
+    padding: 7px;
+    box-sizing: border-box;
+}
